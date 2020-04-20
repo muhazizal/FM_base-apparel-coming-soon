@@ -38,9 +38,10 @@
 
     <div class="email-container">
       <form action="#" method="get" id="form">
-        <input type="email" name="email" id="email" placeholder="Email Address" title="email" aria-label="email">
+        <input type="email" name="email" id="email" placeholder="Email Address" title="email" required 
+          aria-label="email" aria-labelledby="form">
         <img id="danger" src="images/icon-error.svg" alt="danger-popup"></span>
-        <button type="submit" name="submit-email"></button>
+        <button type="submit" name="submit-email" title="submit" aria-label="submit" aria-labelledby="form"></button>
         <span id="error"></span>
       </form>
     </div>
